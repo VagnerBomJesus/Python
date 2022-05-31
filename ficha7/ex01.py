@@ -106,7 +106,6 @@ def main():
     for a in Inf:
         E = EstudanteInf(a[0], a[1], a[2])
         Pauta[E.Nome] = (E.ClassFinal(), SitFinal(E.ClassFinal()))
-
     print(Pauta)
 
 
